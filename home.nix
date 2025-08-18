@@ -1,4 +1,4 @@
-{ config, pkgs, lib, cfgDir, ... }:
+{ config, pkgs, lib, ... }:
 
 {
   home.username = "lyon";
