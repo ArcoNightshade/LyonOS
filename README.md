@@ -58,7 +58,7 @@ Steps:
 After the installation is complete, you will be prompted to reboot. Your new LyonOS system will be ready!
 # Screenshots (None yet but coming soon!)
 
-## Note: Add screenshots of your desktop environment here to show off the ricing.
+Note to self: Add some screenshots.
 
 # Contributing
 
