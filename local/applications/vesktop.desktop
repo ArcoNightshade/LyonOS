@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Vesktop (Wayland)
+Exec=vesktop --ozone-platform=wayland
+Icon=Vesktop
+MimeType=x-scheme-handler/discord;

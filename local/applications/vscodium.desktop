@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=VSCodium (Wayland)
+Comment=VSCodium Wayland
+Exec=codium --ozone-platform=wayland
+Icon=Codium
+Terminal=false

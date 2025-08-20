@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=TIDAL (Wayland)
+Comment=HiFi Music
+Exec=tidal-hifi --ozone-platform=wayland
+Icon=TIDAL HIFI
+Terminal=false

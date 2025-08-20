@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+# waybar_path=$(find /nix/store/*-system-path/bin/waybar | tail -n 1)
+# $waybar_path -c ~/.config/waybar/config-niri
+
+# emacs --daemon &
+
+swww-daemon &
+
+swww_path=$(find /nix/store/*-system-path/bin/swww | tail -n 1)
+$swww_path img ~/Pic/Wallpapers/accretion_disk.png
+
+gammastep -PO 4000
+
+
