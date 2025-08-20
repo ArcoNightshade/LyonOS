@@ -76,7 +76,7 @@
   nixpkgs.config.allowUnfree = true;
 
   environment.systemPackages = with pkgs; [
-  #LyonOS required packages
+  #LyonOS required packages (Stuff WILL break if you remove anything)
   swww
   git
   fuzzel
