@@ -1,0 +1,69 @@
+# LyonOS: A Personal NixOS Configuration [WIP]
+
+LyonOS is my personal, opinionated Linux distribution based on NixOS. This repository contains all the configuration files and an automated install script to replicate my complete desktop environment (ricing) on any machine.
+
+If you appreciate the philosophy of a declarative and reproducible operating system and enjoy a minimalist and highly customized desktop, LyonOS might be a good starting point for you.
+
+## Features
+
+    Declarative & Reproducible: Built on NixOS, your entire system configuration is stored in a single repository, making it easy to replicate and manage.
+
+    Automated Installation: A simple installer script handles everything after you install NixOS.
+
+    Personalized Ricing: My collection of dotfiles and configurations for a cohesive and productive desktop experience.
+
+    Atomic Upgrades: With NixOS, system upgrades are atomic and can be rolled back instantly if anything goes wrong.
+
+## Ricing & Dotfiles
+
+This repository includes my personal configuration for the following tools, ensuring a consistent aesthetic and workflow:
+
+    Window Manager: Niri (a dynamic, blazingly-fast wayland compositor)
+
+    Terminal Emulator: foot (For speed and transparency)
+
+    Application Launcher (and some other menus): Fuzzel
+
+    Status Bar: Waybar
+
+    Text Editor: Neovim (with a custom configuration)
+
+    Shell: Fish with a simple config (Nothing special)
+
+## Installation
+
+The provided install.sh script automates the entire process.
+
+### Prerequisites:
+
+A NixOS machine (Preferably tty-only install)
+
+My script and repo.
+
+Steps:
+
+    Install NixOS
+
+    Clone this repository:
+
+    git clone https://github.com/your-username/LyonOS.git
+    cd LyonOS
+
+    Run the installer script. This will ask you for your hostname and username.
+
+    ./install.sh
+
+    Follow the on-screen prompts. The script will handle configuration.
+
+After the installation is complete, you will be prompted to reboot. Your new LyonOS system will be ready!
+# Screenshots (None yet but coming soon!)
+
+## Note: Add screenshots of your desktop environment here to show off the ricing.
+
+# Contributing
+
+While this is a personal project, suggestions and pull requests are welcome! If you find a bug or have an idea for an improvement, please open an issue or submit a pull request.
+
+# License
+
+### This project is licensed under the MIT License. See the LICENSE file for details.
