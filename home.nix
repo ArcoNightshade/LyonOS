@@ -19,12 +19,12 @@
   firefox tor-browser vesktop
 
   # Media and creative tools
-  krita cmus obsidian tidal-dl tidal-hifi
+  cmus tidal-dl tidal-hifi
 
   # Gaming
-  steam lutris prismlauncher wine appimage-run
+  appimage-run
 
   # Utils
-  fastfetch hyfetch atuin brightnessctl flatpak zip unzip btop senpai
+  fastfetch hyfetch brightnessctl flatpak zip unzip btop senpai
   ];
 }

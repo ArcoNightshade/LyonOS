@@ -41,12 +41,16 @@
 
   # LyonOS specific stuff
   services.displayManager.ly.enable = true;
-  programs.hyprland = {
-	enable = true;
-	xwayland.enable = true;
-  };
+  #programs.hyprland = {
+  #	enable = true;
+  #	xwayland.enable = true;
+  #};
   
-  programs.hyprlock.enable = true;  
+  #programs.hyprlock.enable = true;
+  
+  services.xserver.enable = true;
+  programs.niri.enable = true;
+  programs.xwayland.enable = true;
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
@@ -84,6 +88,8 @@
   fuzzel
   waybar
   foot
+  nwg-look
+  oreo-cursors-plus
   ];
 
   # List services that you want to enable:
