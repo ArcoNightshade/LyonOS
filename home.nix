@@ -13,13 +13,13 @@
   foot fish
 
   # Dev tools
-  git rustup lazygit vscodium-fhs neovim cairo
+  git rustup lazygit vscodium-fhs neovim cairo jetbrains.rust-rover
 
   # Browsers and communication
   firefox tor-browser vesktop
 
   # Media and creative tools
-  cmus tidal-dl tidal-hifi
+  cmus tidal-hifi
 
   # Gaming
   appimage-run
