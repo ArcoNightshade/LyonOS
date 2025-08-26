@@ -84,14 +84,9 @@
   foot
   nwg-look
   oreo-cursors-plus
-  xorg.libX11
-  xorg.libXext
-  xorg.libXi
-  xorg.libXrender
-  xorg.libXtst
-  gtk3
   xwayland-satellite
-  jetbrains.jdk
+  rust-analyzer
+  gcc
   ];
 
   # List services that you want to enable:
