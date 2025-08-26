@@ -59,8 +59,6 @@
   };
   
   security.rtkit.enable = true;
-
-
   programs.fish.enable = true;
 
 
