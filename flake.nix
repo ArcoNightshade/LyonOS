@@ -1,5 +1,5 @@
 {
-  description = "LyonOS v0.1.0 flake";
+  description = "LyonOS v0.1.1 flake";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
