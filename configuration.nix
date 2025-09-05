@@ -88,6 +88,7 @@
   ];
 
   # List services that you want to enable:
+  # Dont got anything yet :|
 
   system.stateVersion = "25.05";
 }
