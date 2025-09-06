@@ -40,15 +40,17 @@
   };
 
   # LyonOS specific stuff
+  nix.settings.experimental-features = [ "nix-command" "flakes" ];
+
   services.displayManager.ly.enable = true;
-  
   services.xserver.enable = true;
   programs.niri.enable = true;
   programs.xwayland.enable = true;
 
-  nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
   ## Audio + RTKit
+  security.rtkit.enable = true;
+
   services.pipewire = {
     enable = true;
     audio.enable = true;
@@ -58,9 +60,6 @@
     wireplumber.enable = true;
   };
   
-  security.rtkit.enable = true;
-  programs.fish.enable = true;
-
 
   # User stuff, will change during install script [WIP]
   users.users.lyon = {
@@ -71,8 +70,8 @@
     packages = with pkgs; [];
   };
 
-  nixpkgs.config.allowUnfree = true;
 
+  nixpkgs.config.allowUnfree = true;
   environment.systemPackages = with pkgs; [
   #LyonOS required packages (Stuff WILL break if you remove anything)
   swww
@@ -87,6 +86,7 @@
   gcc
   ];
 
+
   # List services that you want to enable:
     services = {
     power-profiles-daemon.enable = true;
@@ -100,7 +100,8 @@
     };
   };
 
-    powerManagement.cpuFreqGovernor = "power-saver";
+  powerManagement.cpuFreqGovernor = "power-saver";
+
 
   system.stateVersion = "25.05";
 }
