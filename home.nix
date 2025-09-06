@@ -19,7 +19,7 @@
   firefox tor-browser vesktop
 
   # Media and creative tools
-  cmus tidal-hifi
+  cmus tidal-hifi aseprite
 
   # Gaming
   appimage-run
