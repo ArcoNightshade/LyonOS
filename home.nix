@@ -1,3 +1,5 @@
+# Matching home.nix packaged with LyonOS
+
 { config, pkgs, lib, ... }:
 
 {
