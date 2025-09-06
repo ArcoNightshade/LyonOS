@@ -13,7 +13,7 @@
   foot fish
 
   # Dev tools
-  git rustup lazygit vscodium-fhs neovim cairo gh
+  git rustup lazygit vscodium-fhs neovim cairo gh gh-contribs
 
   # Browsers and communication
   firefox tor-browser vesktop
