@@ -84,6 +84,7 @@
   xwayland-satellite
   rust-analyzer
   gcc
+  nautilus
   ];
 
 
