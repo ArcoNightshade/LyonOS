@@ -47,6 +47,7 @@
   programs.niri.enable = true;
   programs.xwayland.enable = true;
 
+  programs.fish.enable = true;
 
   ## Audio + RTKit
   security.rtkit.enable = true;
