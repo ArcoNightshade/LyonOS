@@ -1,4 +1,4 @@
-# LyonOS v0.1.1 - WM
+# LyonOS v0.1.1
 # Credits to https://github.com/arconightshade/ AKA Lyon Antoniuk.
 
 { config, pkgs, ... }:
