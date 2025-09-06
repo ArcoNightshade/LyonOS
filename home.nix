@@ -13,7 +13,7 @@
   foot fish
 
   # Dev tools
-  git rustup lazygit vscodium-fhs neovim cairo gh gh-contribs
+  git rustup lazygit vscodium-fhs neovim gh gh-contribs atuin 
 
   # Browsers and communication
   firefox tor-browser vesktop
@@ -25,6 +25,6 @@
   appimage-run
 
   # Utils
-  fastfetch hyfetch brightnessctl flatpak zip unzip btop senpai
+  fastfetch hyfetch brightnessctl flatpak zip unzip btop senpai lsd
   ];
 }
