@@ -88,7 +88,19 @@
   ];
 
   # List services that you want to enable:
-  # Dont got anything yet :|
+    services = {
+    power-profiles-daemon.enable = true;
+
+    upower = {
+      enable = true;
+      percentageLow = 20;
+      percentageCritical = 5;
+      percentageAction = 3;
+      criticalPowerAction = "PowerOff";
+    };
+  };
+
+    powerManagement.cpuFreqGovernor = "power-saver";
 
   system.stateVersion = "25.05";
 }
