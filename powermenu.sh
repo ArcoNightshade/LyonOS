@@ -1,4 +1,6 @@
 #!/bin/sh
+
+# This lowk needs a nix flake to work so I'll do that later lol
 choice=$(fuzzel --dmenu -p dynamic --prompt "LyonOS power options: " << EOF | sed 's/^ *//'
 Shutdown
 Reboot
