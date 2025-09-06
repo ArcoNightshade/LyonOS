@@ -47,6 +47,7 @@
   programs.niri.enable = true;
   programs.xwayland.enable = true;
 
+  # Enabling user shell
   programs.fish.enable = true;
 
   ## Audio + RTKit
