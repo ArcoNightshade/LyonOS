@@ -30,6 +30,6 @@
   fastfetch hyfetch brightnessctl flatpak zip unzip btop senpai lsd
 
   # Haskell
-  haskell.compiler.native-bignum.ghcHEAD libgcc gmp gnumake42 ncurses pkg-configUpstream
+  haskell.compiler.native-bignum.ghcHEAD haskell-language-server
   ];
 }
