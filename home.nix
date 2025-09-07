@@ -15,7 +15,7 @@
   foot fish
 
   # Dev tools
-  git rustup lazygit vscodium-fhs neovim gh gh-contribs atuin haskell.compiler.native-bignum.ghcHEAD ghcup
+  git rustup lazygit vscodium-fhs neovim gh gh-contribs atuin haskell.compiler.native-bignum.ghcHEAD haskellPackages.ghcup
 
   # Browsers and communication
   firefox tor-browser vesktop
