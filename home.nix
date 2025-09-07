@@ -30,6 +30,6 @@
   fastfetch hyfetch brightnessctl flatpak zip unzip btop senpai lsd
 
   # Haskell
-  haskell.compiler.native-bignum.ghc94 haskell-language-server
+  haskell.compiler.native-bignum.ghc984 haskell-language-server
   ];
 }
